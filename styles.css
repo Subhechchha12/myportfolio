@@ -72,6 +72,7 @@ nav .right a span {
 
 .hero-section .text {
   flex: 5;
+  text-align: justify;
 }
 
 .hero-section .text h2 {
@@ -148,35 +149,36 @@ nav .right a span {
   height: 30px;
   object-fit: contain;
   border-radius: 2px;
+  
 }
 
 .skills-section .cells .cell span {
   font-size: 18px;
 }
 
-/* SECTION 3: Testimony */
-.testimony-section {
+/* SECTION 3: Project */
+.project-section {
   padding: 0 50px;
   margin-bottom: 100px;
 }
 
-.testimony-section h2 {
+.project-section h2 {
   font-size: 35px;
   margin-bottom: 30px;
 }
 
-.testimony-section .group {
+.project-section .group {
   display: flex;
   align-items: center;
   gap: 50px;
 }
 
-.testimony-section .group .person-details {
+.project-section .group .person-details {
   text-align: center;
   flex: 2;
 }
 
-.testimony-section .group .person-details img {
+.project-section .group .person-details img {
   width: 200px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -184,16 +186,17 @@ nav .right a span {
   margin-bottom: 10px;
 }
 
-.testimony-section .group .person-details p {
+.project-section .group .person-details p {
   font-weight: 600;
 }
 
-.testimony-section .group .person-details p:last-child {
+.project-section .group .person-details p:last-child {
   font-weight: normal;
 }
 
-.testimony-section .group .text {
+.project-section .group .text {
   flex: 8;
+  text-align: justify;
 }
 
 /* SECTION 4: Contact */
@@ -265,12 +268,12 @@ nav .right a span {
     width: 300px;
   }
 
-  /* SECTION 3: Testimony */
-  .testimony-section {
+  /* SECTION 3: Project */
+  .project-section {
     text-align: center;
   }
 
-  .testimony-section .group {
+  .project-section .group {
     flex-direction: column;
   }
 
@@ -318,8 +321,8 @@ nav .right a span {
     font-size: 16px;
   }
 
-  /* SECTION 3: Testimony */
-  .testimony-section {
+  /* SECTION 3: Project */
+  .project-section {
     padding: 0 20px;
   }
 
